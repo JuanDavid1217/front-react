@@ -25,7 +25,7 @@ kind: Service
 metadata:
   labels:
     run: {model_name_release}-service
-  name: {model_nam_releasee}-service
+  name: {model_name_release}-service
 spec:
   ports:
   - port: 80
