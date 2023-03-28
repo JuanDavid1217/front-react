@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: {model_name_release}-server
-  replicas: 3
+  replicas: "{{replicas}}"
   template:
     metadata:
       labels:
